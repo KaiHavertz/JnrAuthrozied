@@ -1,9 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-//引入 layui css
-//引入 layui css
-import '../node_modules/layui-src/dist/css/layui.css'
-import '../node_modules/layui-src/dist/layui.js'
+import './plugins/element.js'
 
 Vue.config.productionTip = false
 
